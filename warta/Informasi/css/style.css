@@ -153,6 +153,11 @@ body {
   width: 30px;
 }
 
+img {
+  max-width: 100%;
+  height: 70px;
+}
+
 @media(max-width: 500px) {
   .tutorial-link a {
     font-size: 14px;
@@ -173,11 +178,6 @@ body {
 
 .image-container {
   height: 40px;
-}
-
-img {
-  max-width: 100%;
-  height: 70px;
 }
 
 .text {
