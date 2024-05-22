@@ -9,17 +9,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          path: hkbppansuran.github.io/warta    #checkout different branch
+          path: 'warta'    #checkout different branch
 
       - name: Github Pages Directory Listing
         uses: jayanta525/github-pages-directory-listing@main
         with:
-          FOLDER: data      #directory to generate index
+          FOLDER: warta      #directory to generate index
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: hkbppansuran.github.io/warta      # upload generated folder
+          path: 'warta'      # upload generated folder
   
   deploy:
     needs: pages-directory-listing
