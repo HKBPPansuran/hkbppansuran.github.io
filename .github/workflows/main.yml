@@ -9,8 +9,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: dummy-data    #checkout different branch
-          path: 'warta'
+          sparse-checkout: |
+            warta
 
       - name: Github Pages Directory Listing
         uses: jayanta525/github-pages-directory-listing@v4
