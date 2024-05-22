@@ -10,6 +10,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: dummy-data    #checkout different branch
+          path: 'warta'
 
       - name: Github Pages Directory Listing
         uses: jayanta525/github-pages-directory-listing@v4
