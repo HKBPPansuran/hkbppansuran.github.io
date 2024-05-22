@@ -1,1 +1,37 @@
-<b><i>Test</i></b>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Informasi</title>
+<style>
+.container {
+  display: flex;
+  justify-content: center; /* Pusatkan horizontal */
+  align-items: center;    /* Pusatkan vertikal */
+  height: 100vh;         /* Tinggi viewport penuh */
+}
+
+.text {
+  font-size: 2em;        /* Ukuran teks */
+}
+
+/* Media query untuk tablet */
+@media (max-width: 768px) {
+  .text {
+    font-size: 1.5em;  
+  }
+}
+
+/* Media query untuk ponsel */
+@media (max-width: 480px) {
+  .text {
+    font-size: 1em;  
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="text">Semua isi dalam direktori ini sepenuhnya milik HKBP Pansuran.</div>
+</div>
+</body>
+</html>
