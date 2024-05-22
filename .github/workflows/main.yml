@@ -19,7 +19,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: warta      # upload generated folder
+          path: 'warta'      # upload generated folder
   
   deploy:
     needs: pages-directory-listing
