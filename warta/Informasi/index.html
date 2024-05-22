@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Informasi</title>
+<title>HKBP Pansuran | Informasi Halaman</title>
 <style>
 .container {
   display: flex;
-  justify-content: center; /* Pusatkan horizontal */
-  align-items: center;    /* Pusatkan vertikal */
-  height: 100vh;         /* Tinggi viewport penuh */
+  flex-direction: column;
+  align-items: center; /* Pusatkan horizontal */
+  justify-content: center; /* Pusatkan vertikal */
+  height: 100vh; /* Tinggi penuh layar */
+}
+
+.image-container {
+/*  width: 70px;*/
+  height: 70px;
+}
+
+img {
+  max-width: 100%; /* Gambar responsif */
+  height: auto;
 }
 
 .text {
-  font-size: 2em;        /* Ukuran teks */
-}
-
-/* Media query untuk tablet */
-@media (max-width: 768px) {
-  .text {
-    font-size: 1.5em;  
-  }
-}
-
-/* Media query untuk ponsel */
-@media (max-width: 480px) {
-  .text {
-    font-size: 1em;  
-  }
+  text-align: center;
+  margin-top: 10px; /* Jarak antara gambar dan teks */
 }
 </style>
 </head>
 <body>
 <div class="container">
+  <div class="image-container">
+    <img src="img/logohkbp.png" alt="Gambar"> 
+  </div>
   <div class="text">Semua isi dalam direktori ini sepenuhnya milik HKBP Pansuran.</div>
 </div>
 </body>
