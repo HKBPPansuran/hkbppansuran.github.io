@@ -136,7 +136,7 @@ body {
   }
 }
 
-.tutorial-link a {
+/*.tutorial-link a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,11 +148,7 @@ body {
   border: 2px solid;
   border-radius: 5px;
   padding: 4px 10px;
-}
-
-.tutorial-link svg {
-  width: 30px;
-}
+}*/
 
 .logohkbp {
   max-width: 100%;
